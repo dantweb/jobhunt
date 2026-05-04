@@ -64,6 +64,9 @@ ignore = [
 [tool.ruff.lint.per-file-ignores]
 "tests/**" = ["PLR", "B011", "S101"]
 
+[tool.ruff.lint.isort]
+known-first-party = ["jobhunt", "tests"]
+
 [tool.ruff.format]
 quote-style = "double"
 indent-style = "space"
