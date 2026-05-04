@@ -1,0 +1,23 @@
+name: ci
+
+on:
+  push:
+  pull_request:
+    branches: [main]
+
+jobs:
+  gate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run pre-commit gate (in Docker)
+        run: ./bin/pre-commit-check.sh
+        env:
+          ANTHROPIC_API_KEY: ""
+          OPENAI_API_KEY: ""
+          ADZUNA_APP_ID: ""
+          ADZUNA_APP_KEY: ""
+          JOOBLE_API_KEY: ""
+          SMTP_HOST: ""

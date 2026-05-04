@@ -1,0 +1,23 @@
+{
+  "totalCount": 2,
+  "jobs": [
+    {
+      "id": 90001,
+      "title": "Senior Python Developer",
+      "company": "ACME GmbH",
+      "link": "https://jooble.org/desc/4001",
+      "snippet": "Senior Python role in Berlin.",
+      "location": "Berlin",
+      "updated": "2026-04-21T09:00:00"
+    },
+    {
+      "id": 90002,
+      "title": "PHP Symfony Lead",
+      "company": "Beispiel AG",
+      "link": "https://jooble.org/desc/4002",
+      "snippet": "Symfony lead in Munich.",
+      "location": "Munich",
+      "updated": "2026-04-22T11:30:00"
+    }
+  ]
+}

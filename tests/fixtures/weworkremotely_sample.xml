@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>We Work Remotely - Back-End Programming</title>
+    <link>https://weworkremotely.com/categories/remote-back-end-programming-jobs</link>
+    <description>Back-end programming remote jobs.</description>
+    <item>
+      <title>ACME GmbH: Senior Python Engineer</title>
+      <link>https://weworkremotely.com/remote-jobs/acme-senior-python-engineer</link>
+      <description><![CDATA[<p>Senior Python role, fully remote.</p>]]></description>
+      <pubDate>Mon, 21 Apr 2026 09:00:00 +0000</pubDate>
+      <guid isPermaLink="false">wwr-91001</guid>
+    </item>
+    <item>
+      <title>Beispiel AG: Lead PHP Symfony Developer</title>
+      <link>https://weworkremotely.com/remote-jobs/beispiel-lead-php-symfony</link>
+      <description><![CDATA[<p>Symfony lead, EU-remote.</p>]]></description>
+      <pubDate>Tue, 22 Apr 2026 11:30:00 +0000</pubDate>
+      <guid isPermaLink="false">wwr-91002</guid>
+    </item>
+  </channel>
+</rss>

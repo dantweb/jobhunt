@@ -1,0 +1,40 @@
+services:
+  jobhunt:
+    build: .
+    image: jobhunt-dev:latest
+    working_dir: /app
+    volumes:
+      - .:/app
+      - jobhunt-uv-cache:/root/.cache/uv
+      - jobhunt-venv:/opt/venv
+    environment:
+      PYTHONUNBUFFERED: "1"
+      PYTHONDONTWRITEBYTECODE: "1"
+    extra_hosts:
+      # Lets `SMTP_HOST=host.docker.internal` work on Linux too, where Docker
+      # Desktop is not present. macOS / Windows already wire this name.
+      - "host.docker.internal:host-gateway"
+    depends_on:
+      # Mailpit is the default SMTP target in .env.example; auto-start it so
+      # `docker compose run --rm jobhunt …` always has a working SMTP sink.
+      - mailpit
+    tty: true
+    stdin_open: true
+
+  mailpit:
+    image: axllent/mailpit:latest
+    restart: unless-stopped
+    ports:
+      # Only the web UI is exposed to the host. SMTP (1025) stays on the
+      # internal compose network — `mailpit:1025` from the jobhunt container.
+      # Web UI is mapped to 8125 (not the default 8025) so jobhunt's mailpit
+      # coexists with any other project that already runs a mailpit on 8025.
+      - "8125:8025"
+    environment:
+      MP_MAX_MESSAGES: "5000"
+      MP_SMTP_AUTH_ACCEPT_ANY: "1"
+      MP_SMTP_AUTH_ALLOW_INSECURE: "1"
+
+volumes:
+  jobhunt-uv-cache:
+  jobhunt-venv:

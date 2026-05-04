@@ -1,0 +1,16 @@
+.git
+.github
+.idea
+.venv
+.pytest_cache
+.mypy_cache
+.ruff_cache
+htmlcov
+docs
+*.db
+*.sqlite*
+*.egg-info
+__pycache__
+.DS_Store
+.env
+.claude

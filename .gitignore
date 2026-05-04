@@ -1,0 +1,21 @@
+.env
+.venv
+__pycache__
+*.pyc
+.pytest_cache
+.mypy_cache
+.ruff_cache
+htmlcov
+.coverage
+*.db
+*.sqlite*
+*.egg-info
+.DS_Store
+
+# Personal data — must not land in the public repo.
+config.toml
+var/
+cv/
+*.cv.pdf
+.claude/
+.idea/

@@ -1,0 +1,33 @@
+{
+  "0-warning": "PLEASE READ THE TERMS",
+  "job-count": 3,
+  "jobs": [
+    {
+      "id": 700001,
+      "title": "Senior Python Engineer",
+      "company_name": "Remote Co",
+      "url": "https://remotive.com/jobs/700001",
+      "description": "Remote-first Python team.",
+      "candidate_required_location": "Europe",
+      "publication_date": "2026-04-21T09:00:00Z"
+    },
+    {
+      "id": 700002,
+      "title": "Backend Engineer (Python)",
+      "company_name": "RemoteEU GmbH",
+      "url": "https://remotive.com/jobs/700002",
+      "description": "Backend role.",
+      "candidate_required_location": "Worldwide",
+      "publication_date": "2026-04-22T10:00:00Z"
+    },
+    {
+      "id": 700003,
+      "title": "US-only Backend Engineer",
+      "company_name": "USA Inc",
+      "url": "https://remotive.com/jobs/700003",
+      "description": "US time zones only.",
+      "candidate_required_location": "USA",
+      "publication_date": "2026-04-22T10:00:00Z"
+    }
+  ]
+}

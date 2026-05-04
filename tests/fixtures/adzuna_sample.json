@@ -1,0 +1,26 @@
+{
+  "results": [
+    {
+      "id": "4001",
+      "title": "Senior Python Backend Engineer",
+      "company": {"display_name": "ACME GmbH"},
+      "redirect_url": "https://adzuna.de/jobs/4001",
+      "description": "Backend role with Python/Django.",
+      "location": {"display_name": "Berlin, Germany"},
+      "salary_min": 90000,
+      "salary_max": 110000,
+      "created": "2026-04-20T10:00:00Z"
+    },
+    {
+      "id": "4002",
+      "title": "PHP Symfony Lead",
+      "company": {"display_name": "Beispiel AG"},
+      "redirect_url": "https://adzuna.de/jobs/4002",
+      "description": "Symfony-based product team.",
+      "location": {"display_name": "Munich, Germany"},
+      "salary_min": null,
+      "salary_max": null,
+      "created": "2026-04-22T08:30:00Z"
+    }
+  ]
+}

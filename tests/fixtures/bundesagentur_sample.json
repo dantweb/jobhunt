@@ -1,0 +1,22 @@
+{
+  "stellenangebote": [
+    {
+      "refnr": "10000-100001",
+      "titel": "Senior Python Engineer",
+      "beruf": "Softwareentwickler",
+      "arbeitgeber": "ACME GmbH",
+      "arbeitsort": {"ort": "Karlsruhe", "plz": "76131"},
+      "aktuelleVeroeffentlichungsdatum": "2026-04-20",
+      "stellenbeschreibung": "Wir suchen eine erfahrene Python-Entwicklerin."
+    },
+    {
+      "refnr": "10000-100002",
+      "titel": "PHP / Symfony Lead Developer",
+      "beruf": "Softwareentwickler",
+      "arbeitgeber": "Beispiel AG",
+      "arbeitsort": {"ort": "München", "plz": "80331"},
+      "aktuelleVeroeffentlichungsdatum": "2026-04-22"
+    }
+  ],
+  "maxErgebnisse": 2
+}

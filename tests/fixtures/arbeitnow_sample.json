@@ -1,0 +1,25 @@
+{
+  "data": [
+    {
+      "slug": "senior-python-engineer-acme",
+      "title": "Senior Python Engineer",
+      "company_name": "ACME GmbH",
+      "url": "https://www.arbeitnow.com/jobs/senior-python-engineer-acme",
+      "description": "<p>Looking for a senior Python engineer.</p>",
+      "location": "Berlin",
+      "tags": ["english", "python", "remote"],
+      "created_at": 1745116800
+    },
+    {
+      "slug": "lead-php-developer",
+      "title": "Lead PHP / Symfony Developer",
+      "company_name": "Beispiel AG",
+      "url": "https://www.arbeitnow.com/jobs/lead-php-developer",
+      "description": "<p>Symfony shop in Munich.</p>",
+      "location": "Munich",
+      "tags": ["php", "symfony"],
+      "created_at": 1745203200
+    }
+  ],
+  "links": {"next": null}
+}
