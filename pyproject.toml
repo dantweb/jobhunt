@@ -77,6 +77,8 @@ strict = true
 warn_unreachable = true
 disallow_any_unimported = false
 plugins = ["pydantic.mypy"]
+mypy_path = ["."]
+explicit_package_bases = true
 exclude = ["docs/", "tests/fixtures/"]
 
 [[tool.mypy.overrides]]
