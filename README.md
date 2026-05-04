@@ -1,5 +1,21 @@
 # jobhunt
 
+## Why
+
+Headhunters and HRs use AI tools to find and filter candidates.
+Candidates, on the other hand, still use a primitive approach — job
+sites and LinkedIn. It's time to change the game.
+
+This tiny tool puts the full power of AI in the developer's hands. It
+reads your CV and cover letter, searches public job boards, hands you a
+shortlist for approval, and applies wherever it can — by email when a
+contact address is exposed, by opening the apply URL otherwise.
+
+The kicker: it is designed for Developers, it runs only in a CLI and requires Docker. 
+The typical HR has no chance of understanding how it works, let alone running it.
+
+---
+
 Personal interactive CLI that fetches German + EU-remote backend job
 postings, ranks them against the owner's CV via a pluggable LLM
 (Anthropic Claude or OpenAI), tailors a cover letter for approved
