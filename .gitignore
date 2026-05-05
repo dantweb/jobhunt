@@ -13,9 +13,11 @@ htmlcov
 .DS_Store
 
 # Personal data — must not land in the public repo.
-config.toml
-var/
-cv/
+# Anchor patterns to repo root with leading `/` so they don't match
+# package paths like `jobhunt/cv/` (the CV-parsing package).
+/config.toml
+/var/
+/cv/
 *.cv.pdf
-.claude/
-.idea/
+/.claude/
+/.idea/
