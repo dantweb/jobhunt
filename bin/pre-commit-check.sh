@@ -38,7 +38,7 @@ docker compose run --rm \
         uv sync --all-extras
         uv run ruff check .
         uv run ruff format --check .
-        uv run mypy --strict jobhunt
+        uv run mypy --strict -p jobhunt
         uv run pytest tests -q \
             --cov=jobhunt --cov-report=term-missing --cov-fail-under=90
     '
